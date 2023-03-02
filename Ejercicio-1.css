@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+html {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+
+}
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+main {
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+    min-width: 200px;
+    width: 70vw;
+    padding: 2em;
+    border-radius: 5px;
+    border: 1px solid brown;
+    background-color: antiquewhite;
+
+}
+
+#name,
+#email,
+#number {
+    display: block;
+    margin: 0.5rem 0;
+    width: 100%;
+
+
+}
+
+select {
+    display: block;
+    margin: 0.5rem 0;
+    width: 100%;
+}
+
+input[type="radio"] {
+    display: inline-block;
+
+}
+
+.feature {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input[type="radio"] {
+    vertical-align: middle;
+    width: unset;
+    margin: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+input[type="checkBox"] {
+    vertical-align: middle;
+    width: unset;
+    margin: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 120px;
+    border: 1px solid black
+}
+/* para que este en el medio-*/
+[type="submit"] {
+display: block;
+margin-top: 10px;
+width: 101%;
+font-size: 0.8rem;
+color: blueviolet;
+background-color:burlywood;
+border-color:1px solid black;
+
+  /*aqui cambia de color al darle click*/
+}
+input[type=submit]:active{
+color: blue;
+}
